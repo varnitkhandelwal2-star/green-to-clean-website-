@@ -976,7 +976,7 @@ footer {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
@@ -1045,6 +1045,11 @@ footer {
     color: var(--primary-dark);
 }
 
+
+.badge-purple {
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+}
 .team-tag {
     font-size: 0.85rem;
     font-weight: 500;
